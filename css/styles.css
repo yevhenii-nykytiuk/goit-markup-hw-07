@@ -202,6 +202,16 @@ img {
 /* ==================</HEADER>=================== */
 
 /* =====================<HERO>====================== */
+
+/* @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url('../images/hero-bg/people-office@2x.jpg');
+  }
+} */
+
+
 .hero {
   max-width: 1440px;
   padding-top: 188px;
