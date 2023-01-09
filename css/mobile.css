@@ -3,6 +3,8 @@
   padding-right: 15px;
 }
 
+/* ==================< ADAPTIVE-MOBILE-WIDTH >=================== */
+
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -11,6 +13,11 @@
     
   }
 }
+
+/* ==================< /ADAPTIVE-MOBILE-WIDTH >=================== */
+
+
+/* ==================< ADAPTIVE-TABLET-WIDTH >=================== */
 
 @media screen and (min-width: 768px) {
   .container {
@@ -37,6 +44,14 @@
 }
 }
 
+/* ==================< /ADAPTIVE-TABLET-WIDTH >=================== */
+
+
+
+
+
+/* ==================< ADAPTIVE-DESKTOP-WIDTH >=================== */
+
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
@@ -60,10 +75,28 @@
   .menu-mobile-social-list {
     display: none; 
 }
+
+.hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-bg/adaptive-graphics/people-office-desktop.jpg'), url('../images/hero-bg/adaptive-graphics/dark-bg-desktop.jpg');
+}
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+  screen and (min-resolution: 192dpi) and (min-width: 1158px),
+  screen and (min-resolution: 2dppx) and (min-width: 1158px){
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-bg/adaptive-graphics/people-office-desktop@2x.jpg'), url('../images/hero-bg/adaptive-graphics/dark-bg-desktop@2x.jpg');
+  }
+}
 
-@media (min-width: 768px) and (max-width: 1157px) {
+/* ==================< /ADAPTIVE-DESKTOP-WIDTH >=================== */
+
+
+
+/* ==================< ADAPTIVE-TABLET >=================== */
+
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
 
   .container {
     width: 100%;
@@ -97,13 +130,27 @@
     margin: 0;
   }
 
-
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-bg/adaptive-graphics/people-office-tablet.jpg'), url('../images/hero-bg/adaptive-graphics/dark-bg-tablet.jpg');
+  }
 
   
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1157px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1157px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1157px){
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-bg/adaptive-graphics/people-office-tablet@2x.jpg'), url('../images/hero-bg/adaptive-graphics/dark-bg-tablet@2x.jpg');
+  }
+}
+
+/* ==================< /ADAPTIVE-TABLET >=================== */
 
 
+
+
+/* ==================< ADAPTIVE-MOBILE >=================== */
 
 @media screen and (max-width: 767px) {
 
@@ -127,12 +174,15 @@
     justify-content: space-between;
   }
 
+/* ==================< MOBILE-MENU >=================== */
+
   .mobile-menu-open {
     background-color: transparent;
     padding: 0;
     line-height: 0;
     border: none;
   }
+
 
   .mobile-menu {
     position: fixed;
@@ -156,6 +206,7 @@
   }
 
   .mobile-menu-container {
+    overflow: scroll;
     position: relative;
     padding: 40px 51px 40px 40px;
   }
@@ -189,6 +240,9 @@
     text-transform: capitalize;
     color: #2e2f42;
   }
+
+
+/* ==================< /MOBILE-MENU >=================== */
 
   .menu-number-mail-list {
     margin-top: 284px;
@@ -248,8 +302,24 @@
   
 }
 
+.hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-bg/adaptive-graphics/people-office-mobile.jpg'), url('../images/hero-bg/adaptive-graphics/dark-bg-mobile.jpg');
 
 }
+
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+  screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px){
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-bg/adaptive-graphics/people-office-mobile@2x.jpg'), url('../images/hero-bg/adaptive-graphics/dark-bg-mobile@2x.jpg');
+  }
+}
+
+/* ==================< /ADAPTIVE-MOBILE >=================== */
+
+
 
 
 
