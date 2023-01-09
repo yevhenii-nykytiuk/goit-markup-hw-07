@@ -307,6 +307,10 @@
 
 }
 
+.title {
+  width: 100%;
+}
+
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
