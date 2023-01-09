@@ -8,7 +8,7 @@
     width: 480px;
     margin-left: auto;
     margin-right: auto;
-    /* background-color: aquamarine; */
+    
   }
 }
 
@@ -52,6 +52,11 @@
 
 
 @media screen and (max-width: 767px) {
+
+  .container {
+    width: 100%;
+  }
+
   .navigation {
     display: none;
   }
@@ -103,7 +108,7 @@
 
   .mobile-menu-close-btn {
     position: absolute;
-    top: 26px;
+    top: 49px;
     right: 15px;
     background-color: transparent;
     padding: 0;
