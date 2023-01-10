@@ -165,6 +165,11 @@
     margin: 0px 0px 72px 0px;
   } */
 
+  .gallery-main {
+  display: none;
+}
+
+
   
 }
 
@@ -273,11 +278,6 @@
     margin-bottom: 48px;
 }
 
-
-.menu-number-mail-item {
-
-}
-
 .menu-number-mail-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -355,6 +355,40 @@
 .about-title {
   text-align: center;
 }
+
+.gallery-person-main {
+  padding-top: 96px;
+}
+
+.gallery-main {
+  display: none;
+}
+
+.gallery-person-list {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-person-item {
+  margin: 0px 0px 72px 0px;
+}
+
+.card {
+  width: 264px;
+  
+}
+
+.card-img {
+  /* display: flex;
+  justify-content: center; */
+  /* max-width: 264px; */
+}
+
+/* .social-list {
+  display: flex;
+  justify-content: center;
+} */
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -366,6 +400,16 @@
 }
 
 /* ==================< /ADAPTIVE-MOBILE >=================== */
+
+
+@media screen and (min-width: 558px) and (max-width: 767px){
+  .gallery-person-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  
+}
 
 
 
