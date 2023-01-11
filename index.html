@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/mobile.css" />
     <title>Home work #7</title>
   </head>
 
@@ -58,18 +58,14 @@
             <use href="./images/modal-form-icon/sprite.svg#icon-menu-burger"></use>
           </svg>
         </button>
-
       </div>
 
-
       <div class="mobile-menu js-menu-container is-open">
-
         <div class="container mobile-menu-container">
-
-          <button type="button"class="mobile-menu-close-btn js-close-menu">
-          <svg  class="mobile-menu-close-icon" width="24" height="24">
-          <use href="./images/modal-form-icon/sprite.svg#icon-mobile-close"></use>
-          </svg>
+          <button type="button" class="mobile-menu-close-btn js-close-menu">
+            <svg class="mobile-menu-close-icon" width="24" height="24">
+              <use href="./images/modal-form-icon/sprite.svg#icon-mobile-close"></use>
+            </svg>
           </button>
 
           <ul class="mobile-menu-list list">
@@ -94,44 +90,39 @@
           </ul>
 
           <ul class="menu-mobile-social-list list">
+            <li class="menu-mobile-social-item">
+              <a class="menu-mobile-social-link" href="#">
+                <svg class="menu-mobile-social-icon" width="24" height="24">
+                  <use href="./images/icon-social/sprite-social.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
 
             <li class="menu-mobile-social-item">
-                    <a class="menu-mobile-social-link" href="#">
-                      <svg class="menu-mobile-social-icon" width="24" height="24">
-                        <use href="./images/icon-social/sprite-social.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-
-
+              <a class="menu-mobile-social-link" href="#">
+                <svg class="menu-mobile-social-icon" width="24" height="24">
+                  <use href="./images/icon-social/sprite-social.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
 
             <li class="menu-mobile-social-item">
-                    <a class="menu-mobile-social-link" href="#">
-                      <svg class="menu-mobile-social-icon" width="24" height="24">
-                        <use href="./images/icon-social/sprite-social.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
+              <a class="menu-mobile-social-link" href="#">
+                <svg class="menu-mobile-social-icon" width="24" height="24">
+                  <use href="./images/icon-social/sprite-social.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
 
             <li class="menu-mobile-social-item">
-                    <a class="menu-mobile-social-link" href="#">
-                      <svg class="menu-mobile-social-icon" width="24" height="24">
-                        <use href="./images/icon-social/sprite-social.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-
-            <li class="menu-mobile-social-item">
-                    <a class="menu-mobile-social-link" href="#">
-                      <svg class="menu-mobile-social-icon" width="24" height="24">
-                        <use href="./images/icon-social/sprite-social.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
+              <a class="menu-mobile-social-link" href="#">
+                <svg class="menu-mobile-social-icon" width="24" height="24">
+                  <use href="./images/icon-social/sprite-social.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-
         </div>
-
       </div>
     </header>
 
@@ -145,9 +136,9 @@
         </div>
       </section>
 
-      <!-- ==================ABOUT=================== -->
+       <!-- ==================ABOUT=================== -->
 
-      <section class="about-main">
+       <section class="about-main">
         <div class="container">
           <h2 class="hidden-title">Title</h2>
 
@@ -207,7 +198,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
 
       <!-- ==================GALLERY-MAIN=================== -->
 
@@ -217,38 +208,104 @@
 
           <ul class="gallery-list list">
             <li class="gallery-item">
+
               <picture>
-                <source>
-              </picture>
-              <img
+
+                <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-gallery-main/computer-desktop.webp 1x,
+                        ./images/main-page-photo/adaptive-gallery-main/computer-desktop@2x.webp 2x
+                      "
+                      media="(min-width: 1158px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-gallery-main/computer-desktop.jpg 1x,
+                        ./images/main-page-photo/adaptive-gallery-main/computer-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+
+                    <img
                 class="gallery-img"
                 src="./images/main-page-photo/computer.jpg"
                 alt="computer"
                 width="360"
                 height="300"
               />
+
+              </picture>
+              
             </li>
             <li class="gallery-item">
-              <img
+
+              <picture>
+
+                <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-gallery-main/mobile-desktop.webp 1x,
+                        ./images/main-page-photo/adaptive-gallery-main/mobile-desktop@2x.webp 2x
+                      "
+                      media="(min-width: 1158px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-gallery-main/mobile-desktop.jpg 1x,
+                        ./images/main-page-photo/adaptive-gallery-main/mobile-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+
+                    <img
                 class="gallery-img"
                 src="./images/main-page-photo/mobile.jpg"
                 alt="mobile"
                 width="360"
                 height="300"
               />
+
+              </picture>
+
             </li>
             <li class="gallery-item">
-              <img
+
+              <picture>
+
+                <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-gallery-main/computer-mobile-desktop.webp 1x,
+                        ./images/main-page-photo/adaptive-gallery-main/computer-mobile-desktop@2x.webp 2x
+                      "
+                      media="(min-width: 1158px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-gallery-main/computer-mobile-desktop.jpg 1x,
+                        ./images/main-page-photo/adaptive-gallery-main/computer-mobile-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+
+                    <img
                 class="gallery-img"
                 src="./images/main-page-photo/computer-mobile.jpg"
                 alt="computer-mobile"
                 width="360"
                 height="300"
               />
+
+              </picture>
+
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
 
       <!-- ==================GALLERY-PERSON-MAIN=================== -->
 
@@ -260,13 +317,67 @@
             <li class="gallery-person-item">
               <article class="card">
                 <div class="card-img">
-                  <img
-                    class="gallery-person-img"
-                    src="./images/main-page-photo/product-designer.jpg"
-                    alt="product-designer"
-                    width="272"
-                    height="260"
-                  />
+                  <picture>
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/product-designer-desktop.webp 1x,
+                        ./images/main-page-photo/adaptive-photo-person/product-designer-desktop@2x.webp 2x
+                      "
+                      media="(min-width: 1158px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/product-designer-desktop.jpg 1x,
+                        ./images/main-page-photo/adaptive-photo-person/product-designer-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/product-designer-tablet.webp 1x,
+                        ./images/main-page-photo/adaptive-photo-person/product-designer-tablet@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/product-designer-tablet.jpg 1x,
+                        ./images/main-page-photo/adaptive-photo-person/product-designer-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/product-designer-mobile.webp 1x,
+                        ./images/main-page-photo/adaptive-photo-person/product-designer-mobile@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/product-designer-mobile.jpg 1x,
+                        ./images/main-page-photo/adaptive-photo-person/product-designer-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+
+                    <img
+                      class="gallery-person-img"
+                      src="./images/main-page-photo/product-designer.jpg"
+                      alt="product-designer"
+                      width="272"
+                      height="260"
+                    />
+                  </picture>
                 </div>
 
                 <div class="card-content">
@@ -311,13 +422,70 @@
             <li class="gallery-person-item">
               <article class="card">
                 <div class="card-img">
-                  <img
+
+                  <picture>
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/developer-desktop.webp 1x,
+                        ./images/main-page-photo/adaptive-photo-person/developer-desktop@2x.webp 2x
+                      "
+                      media="(min-width: 1158px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/developer-desktop.jpg 1x,
+                        ./images/main-page-photo/adaptive-photo-person/developer-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/developer-tablet.webp 1x,
+                        ./images/main-page-photo/adaptive-photo-person/developer-tablet@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/developer-tablet.jpg 1x,
+                        ./images/main-page-photo/adaptive-photo-person/developer-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/developer-mobile.webp 1x,
+                        ./images/main-page-photo/adaptive-photo-person/developer-mobile@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/developer-mobile.jpg 1x,
+                        ./images/main-page-photo/adaptive-photo-person/developer-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+
+                    <img
                     class="gallery-person-img"
                     src="./images/main-page-photo/developer.jpg"
                     alt="developer"
                     width="272"
                     height="260"
                   />
+
+                  </picture>
+                  
                 </div>
 
                 <div class="card-content">
@@ -362,13 +530,71 @@
             <li class="gallery-person-item">
               <article class="card">
                 <div class="card-img">
-                  <img
+
+                  <picture>
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/marketing-desktop.webp 1x,
+                        ./images/main-page-photo/adaptive-photo-person/marketing-desktop@2x.webp 2x
+                      "
+                      media="(min-width: 1158px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/marketing-desktop.jpg 1x,
+                        ./images/main-page-photo/adaptive-photo-person/marketing-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/marketing-tablet.webp 1x,
+                        ./images/main-page-photo/adaptive-photo-person/marketing-tablet@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/marketing-tablet.jpg 1x,
+                        ./images/main-page-photo/adaptive-photo-person/marketing-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/marketing-mobile.webp 1x,
+                        ./images/main-page-photo/adaptive-photo-person/marketing-mobile@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/marketing-mobile.jpg 1x,
+                        ./images/main-page-photo/adaptive-photo-person/marketing-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+
+                    <img
                     class="gallery-person-img"
                     src="./images/main-page-photo/marketing.jpg"
                     alt="marketing"
                     width="272"
                     height="260"
                   />
+
+                  </picture>
+
+                  
                 </div>
 
                 <div class="card-content">
@@ -410,16 +636,74 @@
               </article>
             </li>
 
-            <li class="gallery-person-item">
+            <li class="gallery-person-item gallery-person-item-margin">
               <article class="card">
                 <div class="card-img">
-                  <img
+
+                  <picture>
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/designer-desktop.webp 1x,
+                        ./images/main-page-photo/adaptive-photo-person/designer-desktop@2x.webp 2x
+                      "
+                      media="(min-width: 1158px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/designer-desktop.jpg 1x,
+                        ./images/main-page-photo/adaptive-photo-person/designer-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/designer-tablet.webp 1x,
+                        ./images/main-page-photo/adaptive-photo-person/designer-tablet@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/designer-tablet.jpg 1x,
+                        ./images/main-page-photo/adaptive-photo-person/designer-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/designer-mobile.webp 1x,
+                        ./images/main-page-photo/adaptive-photo-person/designer-mobile@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/main-page-photo/adaptive-photo-person/designer-mobile.jpg 1x,
+                        ./images/main-page-photo/adaptive-photo-person/designer-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+
+                    <img
                     class="gallery-person-img"
                     src="./images/main-page-photo/designer.jpg"
                     alt="designer"
                     width="272"
                     height="260"
                   />
+
+
+                  </picture>
+                  
                 </div>
 
                 <div class="card-content">
