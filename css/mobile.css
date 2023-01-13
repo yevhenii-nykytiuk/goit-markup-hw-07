@@ -330,6 +330,13 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+
+    transition: color var(--transition-time-function);
+  }
+
+  .mobile-menu-link:hover,
+  .mobile-menu-link:focus {
+    color: var(--color-primary-brand);
   }
 
   /* ==================< /MOBILE-MENU >=================== */
@@ -348,7 +355,14 @@
     font-size: 36px;
     line-height: 1.1;
     text-transform: capitalize;
-    color: #4d5ae5;
+    color: #434455;
+
+    transition: color var(--transition-time-function);
+  }
+
+  .menu-phone-link:hover,
+  .menu-phone-link:focus {
+    color: var(--color-primary-brand);
   }
 
   .menu-mail-link {
@@ -357,6 +371,13 @@
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: #434455;
+
+    transition: color var(--transition-time-function);
+  }
+
+  .menu-mail-link:hover,
+  .menu-mail-link:focus {
+    color: var(--color-primary-brand);
   }
 
   .menu-mobile-social-list {
@@ -376,6 +397,14 @@
     height: 40px;
     border-radius: 50%;
     background-color: #4d5ae5;
+
+    transition: background-color var(--transition-time-function), box-shadow var(--transition-time-function);
+  }
+
+  .menu-mobile-social-link:hover,
+  .menu-mobile-social-link:focus {
+    background-color: var(--color-pressed-state);
+    box-shadow: var(--card-shadow);
   }
 
   .hero {
