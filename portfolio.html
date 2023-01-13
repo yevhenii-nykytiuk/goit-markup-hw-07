@@ -14,7 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/mobile.css">
 
     <title>Portfolio</title>
   </head>
@@ -50,13 +51,90 @@
             <a href="tel:+11(000)111-11-11" class="phone-link link">+11 (000) 111-11-11</a>
           </li>
         </ul>
+
+        <button type="button" class="mobile-menu-open js-open-menu">
+          <svg width="24" height="24">
+            <use href="./images/modal-form-icon/sprite.svg#icon-menu-burger"></use>
+          </svg>
+        </button>
+
       </div>
+
+<!-- ================== MOBILE-MENU =================== -->
+
+      <div class="mobile-menu js-menu-container is-open">
+        <div class="container mobile-menu-container">
+          <button type="button" class="mobile-menu-close-btn js-close-menu">
+            <svg class="mobile-menu-close-icon" width="24" height="24">
+              <use href="./images/modal-form-icon/sprite.svg#icon-mobile-close"></use>
+            </svg>
+          </button>
+
+          <ul class="mobile-menu-list list">
+            <li class="mobile-menu-item">
+              <a href="/index.html" class="mobile-menu-link link">Studio</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="#" class="mobile-menu-link link">Portfolio</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="#" class="mobile-menu-link link">Contacts</a>
+            </li>
+          </ul>
+
+          <ul class="menu-number-mail-list list">
+            <li class="menu-number-mail-item">
+              <a href="tel:+11(000)111-11-11" class="menu-phone-link link">+11 (000) 111-11-11</a>
+            </li>
+            <li class="menu-number-mail-item">
+              <a href="mailto:info@devstudio.com" class="menu-mail-link link">info@devstudio.com</a>
+            </li>
+          </ul>
+
+          <ul class="menu-mobile-social-list list">
+            <li class="menu-mobile-social-item">
+              <a class="menu-mobile-social-link" href="#">
+                <svg class="menu-mobile-social-icon" width="24" height="24">
+                  <use href="./images/icon-social/sprite-social.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="menu-mobile-social-item">
+              <a class="menu-mobile-social-link" href="#">
+                <svg class="menu-mobile-social-icon" width="24" height="24">
+                  <use href="./images/icon-social/sprite-social.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="menu-mobile-social-item">
+              <a class="menu-mobile-social-link" href="#">
+                <svg class="menu-mobile-social-icon" width="24" height="24">
+                  <use href="./images/icon-social/sprite-social.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="menu-mobile-social-item">
+              <a class="menu-mobile-social-link" href="#">
+                <svg class="menu-mobile-social-icon" width="24" height="24">
+                  <use href="./images/icon-social/sprite-social.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+<!-- ================== MOBILE-MENU =================== -->
+
     </header>
 
     <main>
       <!-- ==================HERO=================== -->
 
-      <section class="hero-portfolio">
+      <!-- <section class="hero-portfolio">
         <div class="container">
           <h1 class="hidden-title">Menu button and photo</h1>
 
@@ -76,11 +154,11 @@
             <li class="menu-item-nav">
               <button class="menu-btn" type="button">Marketing</button>
             </li>
-          </ul>
+          </ul> -->
 
           <!-- ==================PORTFOLIO=================== -->
 
-          <ul class="portfolio-list list">
+          <!-- <ul class="portfolio-list list">
             <li class="portfolio-item">
               <article class="card-portfolio">
                 <div class="card-img">
@@ -280,12 +358,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- ==================FOOTER=================== -->
 
-    <footer class="bottom-footer">
+    <!-- <footer class="bottom-footer">
       <div class="container footer-container">
         <div>
           <a class="logo-link link" href="#">
@@ -354,6 +432,8 @@
           </span>
         </form>
       </div>
-    </footer>
+    </footer> -->
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>

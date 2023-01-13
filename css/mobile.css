@@ -266,8 +266,8 @@
   }
 
   .top-header-container {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -311,7 +311,7 @@
 
   .mobile-menu-close-btn {
     position: absolute;
-    top: 49px;
+    top: 24px;
     right: 15px;
     background-color: transparent;
     padding: 0;
@@ -533,6 +533,15 @@
     width: 100%;
     margin: 0px 0px 16px 0px;
   }
+
+  /* ================== <PORTFOLIO> =================== */
+
+
+  .menu-nav {
+    display: none;
+  }
+
+  /* ================== </PORTFOLIO> =================== */
 
 }
 
