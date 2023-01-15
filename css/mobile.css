@@ -498,7 +498,7 @@
   }
   
   
- .wrapper-logo-text-footer {
+  .wrapper-logo-text-footer {
     text-align: center;
   }
 
@@ -537,10 +537,60 @@
   /* ================== <PORTFOLIO> =================== */
 
 
+
+  /* ================== <HEADER> ===================  */
+  /* .top-header-container {
+    max-width: 767px;
+  } */
+
   .menu-nav {
     display: none;
   }
 
+  /* ================== </HEADER> ===================  */
+
+  /* ================== <HERO> ===================  */
+
+  .hero-portfolio {
+    min-width: 320px;
+  }
+
+ 
+
+  .menu-list-nav {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: left;
+    gap: 24px;
+  }
+
+  /* .menu-item-nav {
+    margin: 0;
+  } */
+
+  .menu-item-nav:not(:last-child) {
+    margin: 0;
+  }
+
+  .menu-btn {
+
+  }
+
+  .portfolio-list {
+    display: grid;
+    justify-items: center;
+    row-gap: 48px;
+  }
+
+  .portfolio-item {
+    
+  }
+
+
+  .card-portfolio {
+    width: 396px;
+  }
   /* ================== </PORTFOLIO> =================== */
 
 }

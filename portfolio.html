@@ -14,8 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css"/>
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
 
     <title>Portfolio</title>
   </head>
@@ -57,10 +57,9 @@
             <use href="./images/modal-form-icon/sprite.svg#icon-menu-burger"></use>
           </svg>
         </button>
-
       </div>
 
-<!-- ================== MOBILE-MENU =================== -->
+      <!-- ================== MOBILE-MENU =================== -->
 
       <div class="mobile-menu js-menu-container is-open">
         <div class="container mobile-menu-container">
@@ -127,14 +126,13 @@
         </div>
       </div>
 
-<!-- ================== MOBILE-MENU =================== -->
-
+      <!-- ================== MOBILE-MENU =================== -->
     </header>
 
     <main>
       <!-- ==================HERO=================== -->
 
-      <!-- <section class="hero-portfolio">
+      <section class="hero-portfolio">
         <div class="container">
           <h1 class="hidden-title">Menu button and photo</h1>
 
@@ -154,21 +152,79 @@
             <li class="menu-item-nav">
               <button class="menu-btn" type="button">Marketing</button>
             </li>
-          </ul> -->
+          </ul>
 
           <!-- ==================PORTFOLIO=================== -->
 
-          <!-- <ul class="portfolio-list list">
+          <ul class="portfolio-list list">
             <li class="portfolio-item">
               <article class="card-portfolio">
                 <div class="card-img">
-                  <img
-                    class="portfolio-images"
-                    src="./images/portfolio-photo/bank-app-program.jpg"
-                    alt="bank-app-program"
-                    width="372"
-                    height="300"
-                  />
+                  <picture>
+
+                    <source
+                      srcset="
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-desktop.webp 1x,
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-desktop@2x.webp 2x
+                      "
+                      media="(min-width: 1158px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-desktop.jpg 1x,
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                      
+                    />
+
+                    <source
+                      srcset="
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-tablet.webp 1x,
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-tablet@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-tablet.jpg 1x,
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                      
+                    />
+
+                    <source
+                      srcset="
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-mobile.webp 1x,
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-mobile@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-mobile.jpg 1x,
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                      
+                    />
+
+                    <img
+                      class="portfolio-images"
+                      src="./images/portfolio-photo/bank-app-program.jpg"
+                      alt="bank-app-program"
+                      width="396"
+                      height="300"
+                    />
+                  </picture>
+
                   <p class="overflow-card-text">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                     Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -183,13 +239,73 @@
             <li class="portfolio-item">
               <article class="card-portfolio">
                 <div class="card-img">
-                  <img
+
+                  <picture>
+
+                    <source
+                      srcset="
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-desktop.webp 1x,
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-desktop@2x.webp 2x
+                      "
+                      media="(min-width: 1158px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-desktop.jpg 1x,
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                      
+                    />
+
+                    <source
+                      srcset="
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-tablet.webp 1x,
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-tablet@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-tablet.jpg 1x,
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                      
+                    />
+
+                    <source
+                      srcset="
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-mobile.webp 1x,
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-mobile@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-mobile.jpg 1x,
+                        ./images/portfolio-photo/adaptive-portfolio-photo/bank-app-program-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                      
+                    />
+
+                    <img
                     class="portfolio-images"
                     src="./images/portfolio-photo/mobile-qr-code.jpg"
                     alt="background"
-                    width="372"
+                    width="396"
                     height="300"
                   />
+
+                  </picture>
+                  
                   <p class="overflow-card-text">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                     Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -208,7 +324,7 @@
                     class="portfolio-images"
                     src="./images/portfolio-photo/laptop-mobile.jpg"
                     alt="laptop-mobile"
-                    width="372"
+                    width="396"
                     height="300"
                   />
                   <p class="overflow-card-text">
@@ -230,7 +346,7 @@
                     class="portfolio-images"
                     src="./images/portfolio-photo/car.jpg"
                     alt="car"
-                    width="372"
+                    width="396"
                     height="300"
                   />
                   <p class="overflow-card-text">
@@ -251,7 +367,7 @@
                     class="portfolio-images"
                     src="./images/portfolio-photo/mobile.jpg"
                     alt="mobile"
-                    width="372"
+                    width="396"
                     height="300"
                   />
                   <p class="overflow-card-text">
@@ -272,7 +388,7 @@
                     class="portfolio-images"
                     src="./images/portfolio-photo/smail.jpg"
                     alt="smail"
-                    width="372"
+                    width="396"
                     height="300"
                   />
                   <p class="overflow-card-text">
@@ -295,7 +411,7 @@
                     class="portfolio-images"
                     src="./images/portfolio-photo/instagram-stories.jpg"
                     alt="instagram-stories"
-                    width="372"
+                    width="396"
                     height="300"
                   />
                   <p class="overflow-card-text">
@@ -318,7 +434,7 @@
                     class="portfolio-images"
                     src="./images/portfolio-photo/food.jpg"
                     alt="food"
-                    width="372"
+                    width="396"
                     height="300"
                   />
                   <p class="overflow-card-text">
@@ -341,7 +457,7 @@
                     class="portfolio-images"
                     src="./images/portfolio-photo/coffee.jpg"
                     alt="coffee"
-                    width="372"
+                    width="396"
                     height="300"
                   />
                   <p class="overflow-card-text">
@@ -358,7 +474,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <!-- ==================FOOTER=================== -->
