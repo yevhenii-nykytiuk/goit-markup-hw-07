@@ -94,7 +94,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
-    width: 100%;
   }
 
   .logo {
@@ -236,6 +235,28 @@
   .form-input-email-footer {
     width: 264px;
   } */
+
+  .menu-link__portfolio::after { 
+    content: '';
+    top: 54px;
+    left: 0;
+  }
+
+  .portfolio-list {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 72px;
+  }
+
+  .portfolio-item {
+    
+  }
+
+
+  .card-portfolio {
+    width: 356px;
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1157px),
@@ -591,6 +612,18 @@
   .card-portfolio {
     width: 396px;
   }
+
+  /* ================== </HERO> ===================  */
+
+
+  /* ================== <FOOTER> ===================  */
+  .logo-footer {
+    text-align: center;
+  }
+
+  /* ================== </FOOTER> ===================  */
+
+
   /* ================== </PORTFOLIO> =================== */
 
 }
