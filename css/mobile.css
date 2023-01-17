@@ -196,19 +196,19 @@
 
 
   .footer-container {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 24px;
+    column-gap: 24px; */
   }
   
 
   .wrapper-logo-text-footer {
-    display: grid;
-    justify-items: end;
+    /* display: grid;
+    justify-items: end; */
   }
 
   .logo-footer {
-    margin: 0;
+    /* margin: 0; */
   }
 
   .social-list-footer {
