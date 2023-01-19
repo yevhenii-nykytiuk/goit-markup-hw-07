@@ -1,0 +1,218 @@
+
+
+/* ==================< ADAPTIVE-TABLE-MIN-WIDTH-768px >=================== */
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .mobile-menu-open {
+    display: none;
+  }
+
+  .mobile-menu-close-btn {
+    display: none;
+  }
+
+  .mobile-menu-list {
+    display: none;
+  }
+
+  .menu-number-mail-list {
+    display: none;
+  }
+  .menu-mobile-social-list {
+    display: none;
+  }
+}
+
+/* ==================< /ADAPTIVE-TABLE-MIN-WIDTH-768px >=================== */
+
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .container {
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .navigation {
+    margin: 0;
+  }
+
+  .menu-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-link__studio::after {
+    content: '';
+    top: 56px;
+    left: 0;
+  }
+
+  .mail-link {
+    margin: 0;
+  }
+
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/hero-bg/adaptive-graphics/people-office-tablet.jpg'),
+      url('../images/hero-bg/adaptive-graphics/dark-bg-tablet.jpg');
+  }
+
+  .icon-list-wrapper {
+    display: none;
+  }
+
+  .about-main {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .about-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -72px 0px 0px -24px;
+  }
+
+  .about-item {
+    margin: 72px 0px 0px 24px;
+    flex-basis: calc(100% / 2 - 24px);
+  }
+
+  /* .about-item:not(:last-child) {
+    margin: 0px 0px 72px 0px;
+  } */
+
+  .gallery-main {
+    display: none;
+  }
+
+  /* .gallery-person-title {
+  margin-bottom: 72px;
+} */
+
+  .gallery-person-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    justify-content: center;
+    /* margin: -64px 0px 0px -24px; */
+    /* justify-content: center;
+  margin: -64px 0px 0px -24px; */
+  }
+
+  .gallery-person-item {
+    margin: 0px 0px 64px 0px;
+  }
+
+  .gallery-person-item:nth-child(3),
+  .gallery-person-item:nth-child(4) {
+    margin: 0;
+  }
+
+  .card {
+    width: 264px;
+  }
+
+  .company-logo-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .company-logo-item {
+    margin-bottom: 50px;
+  }
+
+
+  .footer-container {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px; */
+  }
+  
+
+  .wrapper-logo-text-footer {
+    /* display: grid;
+    justify-items: end; */
+  }
+
+  .logo-footer {
+    /* margin: 0; */
+  }
+
+  .social-list-footer {
+
+  }
+
+  .form-footer {
+    /* padding-left: 27px;
+    display: grid;
+    grid-column-start: span 2; */
+    
+  }
+
+
+  /* .form-footer {
+    margin: 0;
+  }
+
+  .social-list-footer {
+    width: 208px;
+    margin: 0;
+  }
+
+  .form-input-email-footer {
+    width: 264px;
+  } */
+
+  .menu-link__portfolio::after { 
+    content: '';
+    top: 54px;
+    left: 0;
+  }
+
+  .portfolio-list {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 72px;
+  }
+
+  .portfolio-item {
+    
+  }
+
+
+  .card-portfolio {
+    width: 356px;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1157px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1157px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1157px) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/hero-bg/adaptive-graphics/people-office-tablet@2x.jpg'),
+      url('../images/hero-bg/adaptive-graphics/dark-bg-tablet@2x.jpg');
+  }
+}
+
+/* ==================< ADAPTIVE-TABLET-WIDTH >=================== */
+
+
+
+

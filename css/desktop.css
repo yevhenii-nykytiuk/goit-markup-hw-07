@@ -1,0 +1,51 @@
+
+/* ==================< ADAPTIVE-DESKTOP-MIN-WIDTH-1158px >=================== */
+
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .mobile-menu-open {
+    display: none;
+  }
+
+  .mobile-menu-close-btn {
+    display: none;
+  }
+
+  .mobile-menu-list {
+    display: none;
+  }
+
+  .menu-number-mail-list {
+    display: none;
+  }
+  .menu-mobile-social-list {
+    display: none;
+  }
+
+  .hero {
+    max-width: 100%;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/hero-bg/adaptive-graphics/people-office-desktop.jpg'),
+      url('../images/hero-bg/adaptive-graphics/dark-bg-desktop.jpg');
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+  screen and (min-resolution: 192dpi) and (min-width: 1158px),
+  screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/hero-bg/adaptive-graphics/people-office-desktop@2x.jpg'),
+      url('../images/hero-bg/adaptive-graphics/dark-bg-desktop@2x.jpg');
+  }
+}
+
+/* ==================< /ADAPTIVE-DESKTOP-MIN-WIDTH-1158px >=================== */
