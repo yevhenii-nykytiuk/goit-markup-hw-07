@@ -11,6 +11,33 @@
     padding-right: 15px;
   }
 
+  .top-header-container {
+    width: 100%;
+  }
+
+  .navigation {
+    margin: 0;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .mail-link {
+    margin: 0;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+
+  .menu-link__studio::after {
+    content: '';
+    position: absolute;
+    top: 56px;
+    left: 0;
+  }
+
   .mobile-menu-open {
     display: none;
   }
@@ -19,7 +46,11 @@
     display: none;
   }
 
-  .mobile-menu-list {
+  .menu-nav {
+    display: block;
+  }
+
+  /* .mobile-menu-list {
     display: none;
   }
 
@@ -28,17 +59,32 @@
   }
   .menu-mobile-social-list {
     display: none;
+  } */
+
+  .navigation {
+    display: flex;
+  }
+
+  /* .menu-list {
+    display: flex;
+    justify-content: center;
+  } */
+
+  .menu-nav-wrapper {
+    display: flex;
+    flex-direction: column;
   }
 }
 
 /* ==================< /ADAPTIVE-TABLE-MIN-WIDTH-768px >=================== */
 
 
-@media screen and (min-width: 768px) and (max-width: 1157px) {
-  .container {
-  }
+/* @media screen and (min-width: 768px) and (max-width: 1157px) { */
+  /* .container {
+    width: 100%;
+  } */
 
-  .logo {
+  /* .logo {
     margin: 0;
   }
 
@@ -90,31 +136,31 @@
   .about-item {
     margin: 72px 0px 0px 24px;
     flex-basis: calc(100% / 2 - 24px);
-  }
+  } */
 
   /* .about-item:not(:last-child) {
     margin: 0px 0px 72px 0px;
   } */
 
-  .gallery-main {
+  /* .gallery-main {
     display: none;
-  }
+  } */
 
   /* .gallery-person-title {
   margin-bottom: 72px;
 } */
 
-  .gallery-person-list {
+  /* .gallery-person-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    justify-content: center;
+    justify-content: center; */
     /* margin: -64px 0px 0px -24px; */
     /* justify-content: center;
   margin: -64px 0px 0px -24px; */
-  }
+  /* } */
 
-  .gallery-person-item {
+  /* .gallery-person-item {
     margin: 0px 0px 64px 0px;
   }
 
@@ -134,7 +180,7 @@
 
   .company-logo-item {
     margin-bottom: 50px;
-  }
+  } */
 
 
   .footer-container {
@@ -153,9 +199,7 @@
     /* margin: 0; */
   }
 
-  .social-list-footer {
 
-  }
 
   .form-footer {
     /* padding-left: 27px;
@@ -178,7 +222,7 @@
     width: 264px;
   } */
 
-  .menu-link__portfolio::after { 
+  /* .menu-link__portfolio::after { 
     content: '';
     top: 54px;
     left: 0;
@@ -209,7 +253,7 @@
       url('../images/hero-bg/adaptive-graphics/people-office-tablet@2x.jpg'),
       url('../images/hero-bg/adaptive-graphics/dark-bg-tablet@2x.jpg');
   }
-}
+} */
 
 /* ==================< ADAPTIVE-TABLET-WIDTH >=================== */
 

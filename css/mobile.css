@@ -1,4 +1,7 @@
-
+/* .container {
+  min-width: 320px;
+  max-width: 1158px;
+} */
 
 
 
@@ -6,26 +9,33 @@
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 480px;
+    width: 767px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
   }
   
-
-
   .navigation {
     display: none;
   }
 
+  
   .menu-nav-wrapper {
     display: none;
   }
 
-  .top-header-container {
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
+  .top-header {
+    display: flex;
+  }
+
+  .mobile-menu-container {
+    width: 100%;
+  }
+
+  /* .top-header-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +43,7 @@
 
   .hero {
     background-size: cover;
-  }
+  } */
 
   /* ==================< MOBILE-MENU >=================== */
 
@@ -67,7 +77,6 @@
   }
 
   .mobile-menu-container {
-    position: relative;
     padding: 40px 51px 40px 40px;
   }
 
@@ -171,7 +180,7 @@
 
 
 
-  .hero {
+  /* .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url('../images/hero-bg/adaptive-graphics/people-office-mobile.jpg'),
       url('../images/hero-bg/adaptive-graphics/dark-bg-mobile.jpg');
@@ -179,7 +188,7 @@
 
   .title {
     width: 100%;
-  }
+  } */
 }
 
 
@@ -191,7 +200,7 @@
 
 /* ==================< ADAPTIVE-MOBILE >=================== */
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) { */
   
 
   /* ==================< MOBILE-MENU >=================== */
@@ -204,7 +213,7 @@
 
   
 
-  .icon-list-wrapper {
+  /* .icon-list-wrapper {
     display: none;
   }
 
@@ -226,13 +235,13 @@
 
   .about-item:nth-child(4) {
     margin: 0;
-  }
+  } */
 
   /* .about-item:not(:last-child) {
   margin: 0px 0px 72px 0px;
 } */
 
-  .about-title {
+  /* .about-title {
     text-align: center;
   }
 
@@ -274,11 +283,11 @@
   .company-logo-item:nth-child(5),
   .company-logo-item:nth-child(6) {
     margin: 0;
-  }
+  } */
 
   /* ================== <FOOTER> =================== */
 
-  .footer-container {
+  /* .footer-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -319,7 +328,7 @@
   .form-input-email-footer {
     width: 100%;
     margin: 0px 0px 16px 0px;
-  }
+  } */
 
   /* ================== <PORTFOLIO> =================== */
 
@@ -330,33 +339,33 @@
     max-width: 767px;
   } */
 
-  .menu-nav {
+  /* .menu-nav {
     display: none;
-  }
+  } */
 
   /* ================== </HEADER> ===================  */
 
   /* ================== <HERO> ===================  */
 
-  .hero-portfolio {
+  /* .hero-portfolio {
     min-width: 320px;
-  }
+  } */
 
  
 
-  .menu-list-nav {
+  /* .menu-list-nav {
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: left;
     gap: 24px;
-  }
+  } */
 
   /* .menu-item-nav {
     margin: 0;
   } */
 
-  .menu-item-nav:not(:last-child) {
+  /* .menu-item-nav:not(:last-child) {
     margin: 0;
   }
 
@@ -377,26 +386,26 @@
 
   .card-portfolio {
     width: 396px;
-  }
+  } */
 
   /* ================== </HERO> ===================  */
 
 
   /* ================== <FOOTER> ===================  */
-  .logo-footer {
+  /* .logo-footer {
     text-align: center;
-  }
+  } */
 
   /* ================== </FOOTER> ===================  */
 
 
   /* ================== </PORTFOLIO> =================== */
 
-}
+/* } */
 
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-  screen and (min-resolution: 192dpi) and (max-width: 767px),
-  screen and (min-resolution: 2dppx) and (max-width: 767px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+  screen and (min-resolution: 192dpi) and (min-width: 320px),
+  screen and (min-resolution: 2dppx) and (min-width: 320px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url('../images/hero-bg/adaptive-graphics/people-office-mobile@2x.jpg'),
@@ -406,7 +415,7 @@
 
 /* ==================< /ADAPTIVE-MOBILE >=================== */
 
-@media screen and (min-width: 429px) {
+/* @media screen and (min-width: 429px) {
   .form-input-email-footer {
     width: 396px;
   }
@@ -434,4 +443,4 @@
     display: flex;
     gap: 24px;
   }
-}
+} */
