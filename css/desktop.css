@@ -11,6 +11,13 @@
     padding-right: 15px;
   }
 
+/* ================== <HEADER> =================== */
+
+  .top-header {
+    padding: 24px 0px 24px 0px;
+  }
+
+
   .menu-nav {
     display: flex;
     column-gap: 40px;
@@ -19,6 +26,45 @@
   .mobile-menu {
     display: none;
   }
+
+  .title {
+  width: 496px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+/* ================== </HEADER> =================== */
+.about-main {
+  padding-top: 120px;
+}
+
+.about-list {
+  display: grid;
+  column-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.about-item {
+
+}
+
+.about-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.icon-list-wrapper {
+  display: flex;
+}
+
+
+
 
   /* .mobile-menu-open {
     display: none;

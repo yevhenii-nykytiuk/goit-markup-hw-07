@@ -11,6 +11,12 @@
     padding-right: 15px;
   }
 
+/* ================== <HEADER> =================== */
+
+  .top-header {
+    padding: 12px 0px 12px 0px;
+  }
+
   .top-header-container {
     width: 100%;
   }
@@ -34,7 +40,7 @@
   .menu-link__studio::after {
     content: '';
     position: absolute;
-    top: 56px;
+    top: 44px;
     left: 0;
   }
 
@@ -50,30 +56,61 @@
     display: block;
   }
 
-  /* .mobile-menu-list {
-    display: none;
-  }
-
-  .menu-number-mail-list {
-    display: none;
-  }
-  .menu-mobile-social-list {
-    display: none;
-  } */
-
   .navigation {
     display: flex;
   }
-
-  /* .menu-list {
-    display: flex;
-    justify-content: center;
-  } */
 
   .menu-nav-wrapper {
     display: flex;
     flex-direction: column;
   }
+
+/* ================== </HEADER> =================== */
+
+/* ================== <HERO> ===================  */
+
+.title {
+  width: 496px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+/* ================== </HERO> ===================  */
+
+
+/* ================== <ABOUT> ===================  */
+
+.about-main {
+  /* padding-top: 96px; */
+}
+
+.about-container {
+  /* width: 100%; */
+}
+
+.about-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+  row-gap: 72px
+}
+
+.about-item {
+
+}
+
+.about-title {
+  text-align: left;
+}
+
+.icon-list-wrapper {
+  display: none;
+}
+
+/* ================== </ABOUT> ===================  */
 }
 
 /* ==================< /ADAPTIVE-TABLE-MIN-WIDTH-768px >=================== */
