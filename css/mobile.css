@@ -202,6 +202,7 @@
 
 .about-main {
   padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .about-container {
@@ -226,17 +227,55 @@
   text-align: center;
 }
 
-.about-item {
-
-}
-
 /* ================== </ABOUT> ===================  */
 
+
+/* ================== <GALLERY-MAIN> =================== */
+
+.gallery-main {
+  display: none;
 }
+
+/* ================== </GALLERY-MAIN> =================== */
+
+
+
+
+.gallery-person-main {
+}
+
+.gallery-person-container {
+  width: 100%;
+}
+
+.gallery-person-list {
+  display: grid;
+  justify-items: center;
+  row-gap: 72px;
+}
+
+.gallery-person-item {
+
+}
+
+.card {
+  width: 264px;
+}
+
+
+}
+
+
 
 
 
 /* ==================< /ADAPTIVE-MOBILE-MIN-WIDTH-320px >=================== */
+
+
+
+
+
+
 
 
 
