@@ -77,6 +77,22 @@
 /* ================== </GALLERY-MAIN> =================== */
 
 
+.gallery-person-main {
+}
+
+.gallery-person-container {
+  /* width: 100%; */
+}
+
+.gallery-person-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gallery-person-item {
+
+}
+
 
   /* .mobile-menu-open {
     display: none;
