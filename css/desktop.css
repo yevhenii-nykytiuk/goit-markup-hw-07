@@ -38,6 +38,16 @@
 
 /* ================== </HEADER> =================== */
 
+/* ================== <HERO> =================== */
+
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/hero-bg/adaptive-graphics/people-office-desktop.jpg'),
+      url('../images/hero-bg/adaptive-graphics/dark-bg-desktop.jpg');
+  }
+
+/* ================== </HERO> =================== */
+
 /* ================== <ABOUT> =================== */
 .about-main {
   padding-top: 120px;
@@ -77,6 +87,9 @@
 /* ================== </GALLERY-MAIN> =================== */
 
 
+
+
+/* ================== <GALLERY-PERSON-MAIN> ===================  */
 .gallery-person-main {
 }
 
@@ -93,35 +106,35 @@
 
 }
 
+/* ================== </GALLERY-PERSON-MAIN> ===================  */
 
-  /* .mobile-menu-open {
-    display: none;
-  } */
 
-  /* .mobile-menu-close-btn {
-    display: none;
-  }
+/* ===================== <COMPANY-LOGO> ====================== */
 
-  .mobile-menu-list {
-    display: none;
-  } */
-
-  /* .menu-number-mail-list {
-    display: none;
-  }
-  .menu-mobile-social-list {
-    display: none;
-  } */
-
-  /* .hero {
-    max-width: 100%;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('../images/hero-bg/adaptive-graphics/people-office-desktop.jpg'),
-      url('../images/hero-bg/adaptive-graphics/dark-bg-desktop.jpg');
-  } */
+.company-logo-list {
+  display: flex;
+  column-gap: 24px;
 }
 
-/* @media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+/* ===================== </COMPANY-LOGO> ====================== */
+
+
+
+/* ================== <FOOTER> =================== */
+
+
+
+/* ================== </FOOTER> =================== */
+
+}
+
+
+
+/* ==================< /ADAPTIVE-DESKTOP-MIN-WIDTH-1158px >=================== */
+
+
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
   screen and (min-resolution: 192dpi) and (min-width: 1158px),
   screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   .hero {
@@ -129,6 +142,5 @@
       url('../images/hero-bg/adaptive-graphics/people-office-desktop@2x.jpg'),
       url('../images/hero-bg/adaptive-graphics/dark-bg-desktop@2x.jpg');
   }
-} */
+}
 
-/* ==================< /ADAPTIVE-DESKTOP-MIN-WIDTH-1158px >=================== */

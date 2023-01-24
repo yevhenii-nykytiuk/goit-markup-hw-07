@@ -240,6 +240,8 @@
 
 
 
+/* ================== <GALLERY-PERSON-MAIN> ===================  */
+
 
 .gallery-person-main {
 }
@@ -263,231 +265,47 @@
 }
 
 
+/* ================== </GALLERY-PERSON-MAIN> ===================  */
+
+
+/* ===================== <COMPANY-LOGO> ====================== */
+
+
+.company-logo-container {
+  width: 100%;
 }
 
+.company-logo-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  row-gap: 72px;
+}
 
+.company-logo-item {
+
+}
+
+/* ===================== </COMPANY-LOGO> ====================== */
+
+
+
+
+/* ================== <FOOTER> =================== */
+
+.footer-container {
+  width: 100%;
+}
+
+/* ================== </FOOTER> =================== */
+
+}
 
 
 
 /* ==================< /ADAPTIVE-MOBILE-MIN-WIDTH-320px >=================== */
 
 
-
-
-
-
-
-
-
-
-/* ==================< ADAPTIVE-MOBILE >=================== */
-
-/* @media screen and (max-width: 767px) { */
-  
-
-  /* ==================< MOBILE-MENU >=================== */
-
-  
-
-  /* ==================< /MOBILE-MENU >=================== */
-
-  
-
-  
-
-  /* .icon-list-wrapper {
-    display: none;
-  }
-
-  .about-main {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
-
-  .about-list {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .about-item {
-    margin: 0px 0px 72px 0px;
-  }
-
-  .about-item:nth-child(4) {
-    margin: 0;
-  } */
-
-  /* .about-item:not(:last-child) {
-  margin: 0px 0px 72px 0px;
-} */
-
-  /* .about-title {
-    text-align: center;
-  }
-
-
-
-
-
-  .gallery-person-main {
-    padding-top: 96px;
-  }
-
-  .gallery-main {
-    display: none;
-  }
-
-  .gallery-person-list {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  .gallery-person-item:not(:last-child) {
-    margin: 0px 0px 72px 0px;
-  }
-
-  .gallery-person-item-margin {
-    margin: 0;
-  }
-
-  .card {
-    width: 264px;
-  }
-
-  .company-logo-list {
-    display: flex;
-    justify-content: center;
-  }
-
-  .company-logo-item {
-    margin-bottom: 50px;
-  }
-
-  .company-logo-item:nth-child(5),
-  .company-logo-item:nth-child(6) {
-    margin: 0;
-  } */
-
-  /* ================== <FOOTER> =================== */
-
-  /* .footer-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  
-  .wrapper-logo-text-footer {
-    text-align: center;
-  }
-
-  .logo-footer {
-    margin: 0px 0px 16px 0px;
-  }
-
-  .about-footer-content {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 72px;
-  }
-
-  .social-text {
-    text-align: center;
-  }
-
-  
-
-  .social-list-footer {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 72px;
-  }
-
-  .form-footer {
-    text-align: center;
-    margin: 0;
-  }
-
-  .form-input-email-footer {
-    width: 100%;
-    margin: 0px 0px 16px 0px;
-  } */
-
-  /* ================== <PORTFOLIO> =================== */
-
-
-
-  /* ================== <HEADER> ===================  */
-  /* .top-header-container {
-    max-width: 767px;
-  } */
-
-  /* .menu-nav {
-    display: none;
-  } */
-
-  /* ================== </HEADER> ===================  */
-
-  /* ================== <HERO> ===================  */
-
-  /* .hero-portfolio {
-    min-width: 320px;
-  } */
-
- 
-
-  /* .menu-list-nav {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-items: left;
-    gap: 24px;
-  } */
-
-  /* .menu-item-nav {
-    margin: 0;
-  } */
-
-  /* .menu-item-nav:not(:last-child) {
-    margin: 0;
-  }
-
-  .menu-btn {
-
-  }
-
-  .portfolio-list {
-    display: grid;
-    justify-items: center;
-    row-gap: 48px;
-  }
-
-  .portfolio-item {
-    
-  }
-
-
-  .card-portfolio {
-    width: 396px;
-  } */
-
-  /* ================== </HERO> ===================  */
-
-
-  /* ================== <FOOTER> ===================  */
-  /* .logo-footer {
-    text-align: center;
-  } */
-
-  /* ================== </FOOTER> ===================  */
-
-
-  /* ================== </PORTFOLIO> =================== */
-
-/* } */
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
   screen and (min-resolution: 192dpi) and (min-width: 320px),
@@ -499,34 +317,3 @@
   }
 }
 
-/* ==================< /ADAPTIVE-MOBILE >=================== */
-
-/* @media screen and (min-width: 429px) {
-  .form-input-email-footer {
-    width: 396px;
-  }
-
-  
-}
-
-@media screen and (min-width: 595px) {
-  .form-input-email-footer {
-    width: 264px;
-    margin: 0px 24px 0px 0px;
-  }
-
-  
-}
-
-@media screen and (max-width: 389px) {
-  .company-logo-item:nth-child(5) {
-    margin-bottom: 50px;
-  }
-}
-
-@media screen and (min-width: 558px) and (max-width: 767px) {
-  .gallery-person-list {
-    display: flex;
-    gap: 24px;
-  }
-} */
