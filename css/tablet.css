@@ -161,7 +161,56 @@
 
 /* ================== <FOOTER> =================== */
 
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+} 
 
+
+/* .logo-footer {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 16px;
+} */
+
+.about-footer-content {
+  text-align: center;
+  width: 100%;
+  margin: 0px 0px 72px 0px;
+} 
+
+/* .social-list-footer {
+  width: 100%;
+}
+
+.social-text {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.social-list-footer {
+justify-content: center;
+margin-bottom: 72px;
+}
+
+.social-item-footer {
+
+} */
+
+.form-footer {
+  text-align: center;
+  margin: 0;
+}
+
+/* .form-text-description {
+  text-align: center;
+}
+
+.form-input-email-footer {
+  width: 100%;
+  margin: 0px 0px 16px 0px;
+} */
 
 /* ================== </FOOTER> =================== */
 
