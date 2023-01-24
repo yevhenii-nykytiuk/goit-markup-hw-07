@@ -508,15 +508,14 @@ img {
 /* =====================</COMPANY-LOGO>====================== */
 
 /* =====================<FOOTER>====================== */
-
-.footer-container {
-  display: flex;
-}
-
 .bottom-footer {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: var(--color-black-dark-bold);
+}
+
+.footer-container {
+  display: flex;
 }
 
 .logo-footer {
