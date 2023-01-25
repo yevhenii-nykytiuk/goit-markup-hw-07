@@ -514,10 +514,6 @@ img {
   background-color: var(--color-black-dark-bold);
 }
 
-.footer-container {
-  display: flex;
-}
-
 .logo-footer {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -578,10 +574,6 @@ img {
   margin-bottom: 16px;
 }
 
-.form-footer {
-  margin-left: 80px;
-}
-
 .form-input-email-footer {
   background-color: rgba(33, 150, 243, 0);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -589,8 +581,8 @@ img {
   padding: 5px 0px 8px 16px;
   width: 264px;
   height: 40px;
-  margin-right: 24px;
   border-radius: 4px;
+  flex-shrink: 0;
 }
 
 .form-input-email-footer::placeholder {
@@ -616,10 +608,15 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
   border-radius: 4px;
   background-color: #4d5ae5;
   border: none;
   width: 164px;
+  height: 40px;
   padding: 8px 64px 8px 24px;
   cursor: pointer;
   transition: background-color var(--transition-time-function),
@@ -633,9 +630,7 @@ img {
 }
 
 .form-icon-telegram {
-  position: absolute;
-  top: 0;
-  left: 117px;
+  flex-shrink: 0;
 }
 
 /* =====================</FOOTER>====================== */
@@ -758,7 +753,9 @@ img {
 /* ==================</PORTFOLIO>=================== */
 
 /* ==================<FOOTER>=================== */
-
+.wrapper-logo-text-footer {
+  max-width: 264px;
+}
 /* ==================</FOOTER>=================== */
 
 /* ==================<BACKDROP-MODAL>=================== */

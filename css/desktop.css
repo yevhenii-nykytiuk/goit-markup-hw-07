@@ -122,8 +122,50 @@
 
 /* ================== <FOOTER> =================== */
 
+.bottom-footer {
+  padding-top: 89px;
+  padding-bottom: 38px;
+}
 
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+  gap: 0px;
+  flex-direction: row;
+  align-items: unset;
+} 
 
+.form-input-wrapper {
+  display: flex;
+  gap: 24px
+}
+
+.logo-footer {
+  text-align: left;
+}
+
+.about-footer-content {
+  text-align: left;
+}
+
+.social-text {
+  text-align: left;
+}
+
+.social-list-footer {
+  margin: 0px 80px 0px 0px;
+}
+
+.footer-content {
+  display: flex;
+  gap: 120px;
+  flex-shrink: 0;
+}
+
+.form-input-email-footer { 
+  width: 264px;
+}
 /* ================== </FOOTER> =================== */
 
 }

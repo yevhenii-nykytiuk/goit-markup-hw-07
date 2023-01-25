@@ -161,11 +161,7 @@
 
 /* ================== <FOOTER> =================== */
 
-.footer-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  
-} 
+
 
 
 /* .logo-footer {
@@ -198,22 +194,45 @@ margin-bottom: 72px;
 
 } */
 
-.form-footer {
-  text-align: center;
-  margin: 0;
+.form-text-description {
+  text-align: left;
 }
 
-/* .form-text-description {
-  text-align: center;
+/* ================== </FOOTER> =================== */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+} 
+.footer-content {
+  display: flex;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.logo-footer {
+  text-align: left;
+}
+
+.about-footer-content {
+  text-align: left;
 }
 
 .form-input-email-footer {
-  width: 100%;
-  margin: 0px 0px 16px 0px;
-} */
+  width: 264px;
+}
+.form-input-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
-/* ================== </FOOTER> =================== */
-
+.form-footer {
+  display: flex;
+  width: auto;
+}
 }
 
 /* ==================< /ADAPTIVE-TABLE-MIN-WIDTH-768px >=================== */

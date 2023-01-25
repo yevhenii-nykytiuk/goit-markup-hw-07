@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 767px;
+    width: 480px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -297,13 +297,6 @@
   width: 100%;
 } */
 
-.footer-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  
-} 
-
 
 .logo-footer {
   text-align: center;
@@ -335,10 +328,6 @@ margin-bottom: 72px;
 
 }
 
-.form-footer {
-  text-align: center;
-  margin: 0;
-}
 
 .form-text-description {
   text-align: center;
@@ -346,9 +335,36 @@ margin-bottom: 72px;
 
 .form-input-email-footer {
   width: 100%;
-  margin: 0px 0px 16px 0px;
 }
 
+.form-input-wrapper {
+  display: flex;
+  gap: 24px
+}
+
+.form-footer {
+  display: block;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  align-items: center;
+} 
+.footer-content {
+  display: block;
+  
+}
+.form-input-email-footer {
+  width: 100%;
+}
+.form-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* ================== </FOOTER> =================== */
 
 }
