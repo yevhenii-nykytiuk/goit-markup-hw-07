@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 480px;
+    max-width: 428px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -56,16 +56,23 @@
     overflow: scroll;
     background-color: #fff;
 
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    
+
+    /* opacity: 1;
+    visibility: visible;
+    pointer-events: auto; */
+
+    
+
     transition: opacity 500ms linear, visibility 500ms linear;
   }
 
   .mobile-menu.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    
   }
 
   .mobile-menu-container {
@@ -88,7 +95,7 @@
 
   .mobile-menu-link {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 20px;
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -101,6 +108,14 @@
   .mobile-menu-link:focus {
     color: var(--color-primary-brand);
   }
+
+  .mobile-studio--active {
+    color: #4d5ae5;
+  }
+
+  /* .mobile-portfolio--active {
+    color: #4d5ae5;
+  } */
 
   /* ================== /MOBILE-MENU >=================== */
 
@@ -115,7 +130,7 @@
 
   .menu-phone-link {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 20px;
     line-height: 1.1;
     text-transform: capitalize;
     color: #434455;
@@ -149,7 +164,7 @@
   }
 
   .menu-mobile-social-item:not(:last-child) {
-    margin-right: 56px;
+    margin-right: 23px;
   }
 
   .menu-mobile-social-link {
@@ -367,6 +382,14 @@ margin-bottom: 72px;
 }
 /* ================== </FOOTER> =================== */
 
+/* ================== <BACKDROP-MODAL> =================== */
+.modal {
+
+
+}
+
+/* ================== </BACKDROP-MODAL> =================== */
+
 }
 
 
@@ -383,5 +406,31 @@ margin-bottom: 72px;
       url('../images/hero-bg/adaptive-graphics/people-office-mobile@2x.jpg'),
       url('../images/hero-bg/adaptive-graphics/dark-bg-mobile@2x.jpg');
   }
+}
+
+
+
+@media screen and (min-width: 428px) and (max-width: 767px) {
+  .top-header-container {
+    max-width: 100%;
+  }
+
+  .mobile-menu-container {
+    max-width: 100%;
+  }
+
+  .menu-mobile-social-item:not(:last-child) {
+    margin-right: 56px;
+  }
+
+  .mobile-menu-link {
+    font-size: 36px;
+  }
+  
+  .menu-phone-link {
+    font-size: 35px;
+  }
+
+
 }
 

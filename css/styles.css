@@ -63,10 +63,6 @@ img {
   padding-right: 15px;
 }
 
-/* ==================< MOBILE ADAPTIVE >=================== */
-
-/* ==================< /MOBILE ADAPTIVE >=================== */
-
 /* ==================<HEADER>=================== */
 .top-header {
   padding-top: 24px;
@@ -946,22 +942,3 @@ img {
 }
 
 /* ==================</ MODAL-FORM >=================== */
-
-/* @media screen and(min-width: 1200px) {
-  body {
-    background-color: #757575;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  body {
-    background-color: #404bbf;
-  }
-}
-
-
-@media screen and (min-width: 320px) {
-  body {
-  background-color: #31d0aa;
-  }
-} */
