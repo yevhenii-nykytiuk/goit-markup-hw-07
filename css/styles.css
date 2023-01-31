@@ -56,7 +56,7 @@ img {
 }
 
 .container {
-  /* width: 1158px; */
+  max-width: 428px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -353,12 +353,13 @@ img {
 /* =====================<HERO>====================== */
 
 .hero {
-  max-width: 1440px;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  max-width: 100%;
+  padding-top: 112px;
+  padding-bottom: 112px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url('../images/hero-bg/people-office.jpg'), url('../images/hero-bg/dark-background.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .hero-container {
@@ -368,11 +369,12 @@ img {
 }
 
 .title {
-  font-size: 56px;
+  max-width: 100%;
+  font-size: 36px;
   font-weight: 700;
   color: var(--color-write);
   line-height: 1;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
   width: 496px;
   text-align: center;
 }
@@ -434,8 +436,9 @@ img {
 .about-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1 * var(--photo-text-gap));
-  margin-top: calc(-1 * var(--photo-text-gap));
+  flex-direction: column;
+  /* margin-left: calc(-1 * var(--photo-text-gap));
+  margin-top: calc(-1 * var(--photo-text-gap)); */
 }
 
 .about-item {
@@ -449,14 +452,7 @@ img {
 } */
 
 .icon-list-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 264px;
-  height: 112px;
-  background-color: var(--color-light);
-  margin-bottom: 8px;
-  border-radius: 4px;
+  display: none;
 }
 
 .about-title {
