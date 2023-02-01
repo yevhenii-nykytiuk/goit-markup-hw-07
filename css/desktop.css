@@ -51,11 +51,12 @@
 /* ================== <ABOUT> =================== */
 .about-main {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .about-list {
   display: grid;
-  column-gap: 0px;
+  column-gap: 24px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
@@ -82,9 +83,20 @@
 
 /* ================== <GALLERY-MAIN> =================== */
 
+
+
 .gallery-main {
   display: flex;
 }
+
+.gallery-list {
+  display: flex;
+}
+
+.gallery-title {
+  display: flex;
+}
+
 
 /* ================== </GALLERY-MAIN> =================== */
 
