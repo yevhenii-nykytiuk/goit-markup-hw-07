@@ -89,21 +89,6 @@
   width: 100%;
 }
 
-.gallery-person-list {
-  display: grid;
-  justify-items: center;
-  row-gap: 72px;
-}
-
-.gallery-person-item {
-
-}
-
-.card {
-  width: 264px;
-}
-
-
 /* ================== </GALLERY-PERSON-MAIN> ===================  */
 
 
@@ -112,17 +97,6 @@
 
 .company-logo-container {
   width: 100%;
-}
-
-.company-logo-list {
-  display: flex;
-  justify-content: center;
-  column-gap: 16px;
-  row-gap: 72px;
-}
-
-.company-logo-item {
-
 }
 
 /* ===================== </COMPANY-LOGO> ====================== */
@@ -229,6 +203,18 @@ margin-bottom: 72px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url('../images/hero-bg/adaptive-graphics/people-office-mobile@2x.jpg'),
       url('../images/hero-bg/adaptive-graphics/dark-bg-mobile@2x.jpg');
+  }
+}
+
+
+@media screen and (min-width: 428px) {
+  .company-logo-list {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 72px;
+
   }
 }
 

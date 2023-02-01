@@ -499,8 +499,8 @@ img {
 
 /* =====================<GALLERY-MAIN-PERSON>====================== */
 .gallery-person-main {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 128px;
   background-color: var(--color-light);
 }
 
@@ -511,19 +511,13 @@ img {
 }
 
 .gallery-person-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(-1 * var(--photo-text-gap));
-  margin-left: calc(-1 * var(--photo-text-gap));
-}
-
-.gallery-person-item {
-  margin-top: var(--photo-text-gap);
-  margin-left: var(--photo-text-gap);
-  flex-basis: calc(100% / 4 - var(--photo-text-gap));
+  display: grid;
+  justify-items: center;
+  row-gap: 72px;
 }
 
 .card {
+  width: 264px;
   background-color: var(--color-write);
   border-radius: 3px;
   overflow: hidden;
@@ -596,9 +590,14 @@ img {
 
 /* =====================<COMPANY-LOGO>====================== */
 
+.company-logo-container {
+}
+
+
 .section-company-logo {
   padding-top: 120px;
   padding-bottom: 120px;
+  
 }
 
 .title-company-logo {
@@ -611,9 +610,9 @@ img {
 }
 
 .company-logo-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
+  display: grid;
+  justify-items: center;
+  row-gap: 72px;
 }
 
 .company-logo-item {

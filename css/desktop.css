@@ -83,7 +83,9 @@
 
 /* ================== <GALLERY-MAIN> =================== */
 
-
+.gallery-main {
+  padding-bottom: 120px;
+}
 
 .gallery-main {
   display: flex;
@@ -104,11 +106,10 @@
 
 
 /* ================== <GALLERY-PERSON-MAIN> ===================  */
-.gallery-person-main {
-}
 
-.gallery-person-container {
-  /* width: 100%; */
+.gallery-person-main {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .gallery-person-list {
@@ -116,9 +117,6 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.gallery-person-item {
-
-}
 
 /* ================== </GALLERY-PERSON-MAIN> ===================  */
 
