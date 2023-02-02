@@ -123,9 +123,20 @@
 
 /* ===================== <COMPANY-LOGO> ====================== */
 
+
+.section-company-logo {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  
+}
 .company-logo-list {
-  display: flex;
-  column-gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.company-logo-item {
+  width: 168px;
+  
 }
 
 /* ===================== </COMPANY-LOGO> ====================== */

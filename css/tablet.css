@@ -142,9 +142,19 @@
 
 
 .company-logo-list {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 24px;
+  row-gap: 72px;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+  justify-items: center; */
+}
+
+.company-logo-item {
+  width: 168px;
+  flex-basis: calc((100% - 30px) / 4);
 }
 
 /* ===================== </COMPANY-LOGO> ====================== */
