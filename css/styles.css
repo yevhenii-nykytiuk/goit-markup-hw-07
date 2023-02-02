@@ -720,6 +720,10 @@ img {
   background-color: var(--color-success);
 }
 
+.form-footer {
+  width: 100%;
+}
+
 .form-text-description {
   font-weight: 500;
   font-size: 16px;

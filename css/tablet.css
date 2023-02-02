@@ -162,38 +162,15 @@
 
 /* ================== <FOOTER> =================== */
 
-
-
-
-/* .logo-footer {
-  text-align: center;
-  margin: 0;
-  margin-bottom: 16px;
-} */
+.bottom-footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
 
 .about-footer-content {
   text-align: center;
-  width: 100%;
   margin: 0px 0px 72px 0px;
 } 
-
-/* .social-list-footer {
-  width: 100%;
-}
-
-.social-text {
-  text-align: center;
-  margin-bottom: 16px;
-}
-
-.social-list-footer {
-justify-content: center;
-margin-bottom: 72px;
-}
-
-.social-item-footer {
-
-} */
 
 .form-text-description {
   text-align: left;
@@ -217,6 +194,10 @@ margin-bottom: 72px;
   text-align: left;
 }
 
+.social-text {
+  text-align: left;
+}
+
 .about-footer-content {
   text-align: left;
 }
@@ -224,6 +205,14 @@ margin-bottom: 72px;
 .form-input-email-footer {
   width: 264px;
 }
+
+.form-btn-submit-footer {
+  position: relative;
+  top: 50%;
+  left: 80px;
+  transform: translate(-50%, 0%);
+}
+
 .form-input-wrapper {
   display: flex;
   flex-direction: row;
