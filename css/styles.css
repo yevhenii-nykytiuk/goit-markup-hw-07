@@ -778,19 +778,26 @@ img {
 
 /* =====================</FOOTER>====================== */
 
+
+
+
 /* --------------PORTFOLIO CSS-------------------- */
 
 /* ==================<HERO>=================== */
 
 .hero-portfolio {
-  padding-top: 96px;
+  padding-top: 48px;
   padding-bottom: 152px;
+}
+
+.menu-nav {
+  display: none;
 }
 
 .menu-list-nav {
   display: flex;
-  justify-content: center;
-  margin-bottom: 72px;
+  flex-wrap: wrap;
+  row-gap: 16px;
 }
 
 .menu-item-nav:not(:last-child) {

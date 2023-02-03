@@ -150,6 +150,26 @@
   /* ================== <BACKDROP-MODAL> =================== */
 
   /* ================== </BACKDROP-MODAL> =================== */
+
+
+
+
+
+
+  /* ------------------- <PORTFOLIO> ------------------- */
+
+
+
+  /* ==================<HERO>=================== */
+
+
+  
+
+  /* ==================</HERO>=================== */
+
+
+
+  /* ------------------- </PORTFOLIO> ------------------- */
 }
 
 /* ==================< /ADAPTIVE-MOBILE-MIN-WIDTH-320px >=================== */
@@ -183,6 +203,22 @@
 
   .company-logo-item {
     flex-basis: calc((100% - 30px) / 2);
+  }
+
+  .container-button-portfolio {
+    max-width: 100%;
+  }
+  
+  .menu-list-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+}
+
+@media screen and (min-width: 619px) {
+  .menu-list-nav {
+    justify-content: center;
   }
 }
 
