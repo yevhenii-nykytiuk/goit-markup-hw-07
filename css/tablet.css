@@ -231,7 +231,7 @@
 
   /* ==================<HERO>=================== */
 
-  
+
   .hero-portfolio {
   padding-top: 64px;
   }
@@ -240,6 +240,25 @@
 
   /* ==================</HERO>=================== */
 
+
+  .hero-portfolio {
+  padding-bottom: 96px;
+}
+
+  .menu-list-nav {
+    margin-bottom: 64px;
+  }
+
+  .portfolio-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+  row-gap: 72px;
+}
+
+.card-portfolio {
+  max-width: 356px;
+}
 
   /* ------------------- </PORTFOLIO> ------------------- */
 }

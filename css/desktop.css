@@ -193,6 +193,25 @@
   /* ==================</HERO>=================== */
 
 
+  .hero-portfolio {
+  padding-bottom: 120px;
+}
+
+    .menu-list-nav {
+    margin-bottom: 72px;
+  }
+
+  .portfolio-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.card-portfolio {
+  max-width: 360px;
+}
+
   /* ------------------- </PORTFOLIO> ------------------- */
 }
 

@@ -163,7 +163,7 @@
   /* ==================<HERO>=================== */
 
 
-  
+
 
   /* ==================</HERO>=================== */
 
@@ -212,6 +212,15 @@
   .menu-list-nav {
   display: flex;
   flex-wrap: wrap;
+}
+
+.portfolio-list {
+  /* justify-content: center; */
+}
+
+.portfolio-item {
+  display: flex;
+  justify-content: center;
 }
 
 }

@@ -787,7 +787,7 @@ img {
 
 .hero-portfolio {
   padding-top: 48px;
-  padding-bottom: 152px;
+  padding-bottom: 48px;
 }
 
 .menu-nav {
@@ -798,6 +798,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   row-gap: 16px;
+  margin-bottom: 48px;
 }
 
 .menu-item-nav:not(:last-child) {
@@ -831,20 +832,19 @@ img {
 
 .portfolio-list {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(-1 * var(--photo-text-gap));
-  margin-left: calc(-1 * var(--photo-text-gap));
+  flex-direction: column;
+  row-gap: 48px;
 }
 
 .portfolio-item {
-  margin-left: var(--photo-text-gap);
-  margin-top: var(--photo-text-gap);
-  flex-basis: calc(100% / 3 - var(--photo-text-gap));
+  display: flex;
+  justify-content: center;
 }
 
 .card-portfolio {
   cursor: pointer;
   transition: box-shadow var(--transition-time-function);
+  max-width: 396px;
 }
 
 .card-img {
