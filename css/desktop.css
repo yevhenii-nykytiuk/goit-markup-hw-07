@@ -176,41 +176,34 @@
   }
   /* ================== </FOOTER> =================== */
 
-
-     /* ------------------- <PORTFOLIO> ------------------- */
-
-
+  /* ------------------- <PORTFOLIO> ------------------- */
 
   /* ==================<HERO>=================== */
 
-  
   .hero-portfolio {
-  padding-top: 96px;
+    padding-top: 96px;
   }
-
-
 
   /* ==================</HERO>=================== */
 
-
   .hero-portfolio {
-  padding-bottom: 120px;
-}
+    padding-bottom: 120px;
+  }
 
-    .menu-list-nav {
+  .menu-list-nav {
     margin-bottom: 72px;
   }
 
   .portfolio-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 24px;
-  row-gap: 48px;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
 
-.card-portfolio {
-  max-width: 360px;
-}
+  .card-portfolio {
+    max-width: 360px;
+  }
 
   /* ------------------- </PORTFOLIO> ------------------- */
 }

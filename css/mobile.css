@@ -151,23 +151,11 @@
 
   /* ================== </BACKDROP-MODAL> =================== */
 
-
-
-
-
-
   /* ------------------- <PORTFOLIO> ------------------- */
-
-
 
   /* ==================<HERO>=================== */
 
-
-
-
   /* ==================</HERO>=================== */
-
-
 
   /* ------------------- </PORTFOLIO> ------------------- */
 }
@@ -208,21 +196,20 @@
   .container-button-portfolio {
     max-width: 100%;
   }
-  
+
   .menu-list-nav {
-  display: flex;
-  flex-wrap: wrap;
-}
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.portfolio-list {
-  /* justify-content: center; */
-}
+  .portfolio-list {
+    /* justify-content: center; */
+  }
 
-.portfolio-item {
-  display: flex;
-  justify-content: center;
-}
-
+  .portfolio-item {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 619px) {
