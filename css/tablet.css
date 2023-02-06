@@ -26,7 +26,12 @@
 
   .mail-link {
     margin: 0;
+    font-size: 12px;
   }
+
+.phone-link {
+  font-size: 12px;
+}
 
   .mobile-menu {
     display: none;
@@ -159,7 +164,7 @@
 
   .about-footer-content {
     text-align: center;
-    margin: 0px 0px 72px 0px;
+    margin: 0px 0px 52px 0px;
   }
 
   .form-text-description {

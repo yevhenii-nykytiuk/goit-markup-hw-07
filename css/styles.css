@@ -840,8 +840,14 @@ img {
 
 .card-portfolio {
   cursor: pointer;
-  transition: box-shadow var(--transition-time-function);
+  transition: border var(--transition-time-function), box-shadow var(--transition-time-function);
   max-width: 396px;
+}
+
+.card-portfolio:hover {
+  border: 0.5px solid var(--color-light);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  
 }
 
 .card-img {
@@ -868,10 +874,6 @@ img {
 .card-img:hover .overflow-card-text,
 .card-img:focus .overflow-card-text {
   transform: translate(0, 0);
-}
-
-.card-portfolio:hover {
-  box-shadow: var(--card-shadow);
 }
 
 .card-portfolio-content {
