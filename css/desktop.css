@@ -214,6 +214,7 @@
     transition: border var(--transition-time-function), box-shadow var(--transition-time-function);
   }
 
+  .card-portfolio:focus,
   .card-portfolio:hover {
     border: 1px solid var(--color-light);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
