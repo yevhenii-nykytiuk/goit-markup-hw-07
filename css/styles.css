@@ -167,6 +167,7 @@ img {
 .mail-link {
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
   color: var(--color-black-light);
   transition: color var(--transition-time-function);
 }
@@ -174,6 +175,7 @@ img {
 .phone-link {
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
   color: var(--color-black-light);
   transition: color var(--transition-time-function);
 }
@@ -361,7 +363,7 @@ img {
   font-size: 36px;
   font-weight: 700;
   color: var(--color-write);
-  line-height: 1;
+  line-height: 1.1;
   margin-bottom: 72px;
   width: 496px;
   text-align: center;
